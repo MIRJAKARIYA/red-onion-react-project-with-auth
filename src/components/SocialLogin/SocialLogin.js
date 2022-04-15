@@ -13,6 +13,9 @@ const SocialLogin = () => {
     const [signInWithFacebook, user3, loading3, error3] = useSignInWithFacebook(auth);
     const navigate = useNavigate();
     if(user1 || user2 || user3){
+        console.log(user1)
+        console.log(user2)
+        console.log(user3)
         navigate('/home');
     }
     return (
