@@ -1,0 +1,49 @@
+.search-container{
+    height: 500px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url('../../images/bannerbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flow-root;
+}
+
+.home-input{
+    margin: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 50px;
+    width: 100%;
+    border: none;
+    padding-left: 20px;
+}
+
+.home-input{
+    outline: none;
+}
+
+.home-search-button{
+    position: absolute;
+    top: 36.5%;
+    left: 76.5%;
+    width: 100px;
+    border: none;
+    padding: 8px;
+    background-color: rgb(230, 27, 27);
+    color: white;
+}
+
+.button-input-container{
+    position: relative;
+    border: 1px solid transparent;
+    width: 450px;
+    margin: 150px auto;
+}
+
+.btn-style{
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+    border-bottom: 2px solid red;
+    text-align: left;
+}
